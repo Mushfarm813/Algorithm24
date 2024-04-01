@@ -1,0 +1,12 @@
+def gcd(a,b):
+    while b!=0:
+        r=a%b
+        a=b
+        b=r
+    return a
+
+a=int(input("최대공약수를 구할 수를 입력하시오: "))
+b=int(input("최대공약수를 구할 수를 입력하시오: "))
+
+result=gcd(a,b)
+print("두 수의 최대공약수는",result,"입니다.")
