@@ -17,3 +17,4 @@ for divisor in alist:
 
 print(a, "의 약수 =", alist)
 print(a, "과", b, "의 최대공약수 =", gcd_result)
+
